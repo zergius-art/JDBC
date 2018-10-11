@@ -1,5 +1,5 @@
 /**
- * @code main and single packedge of the program
+ * @code main and single package of the program
  */
 package main;
 
@@ -13,7 +13,7 @@ import java.util.Properties;
 /**
  * here local DB named @code test
  * code shows how works "SQL Injection"
- * and how to prewent it with using
+ * and how to prevent it with using
  * PreparedStatement
  */
 public final class Main {
@@ -77,6 +77,5 @@ public final class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 }
